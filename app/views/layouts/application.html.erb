@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <script src="https://kit.fontawesome.com/d07f028ee8.js" crossorigin="anonymous"></script>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+  <div class="navbar">
+    <h3>Wikinimous</h3>
+    <%=link_to 'New Article', new_article_path, class:"btn btn-primary" %>
+  </div>
+  <div class="container">
     <%= yield %>
+  </div>
   </body>
 </html>

@@ -1,0 +1,40 @@
+@import "bootstrap/scss/bootstrap";
+
+li {
+  font-size: 18px;
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #4678B3;
+}
+
+.cardos {
+  border: solid;
+  box-shadow: 5px 5px 10px gray;
+  padding: 10px;
+}
+
+.btn-primary{
+  background-color: #4678B3 ;
+}
+
+p {
+  color: #454545;
+}
+
+.banner {
+  background-color: #F8F8F8;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+h3, h1 {
+  color: #777777;
+}
+
+.container {
+  margin: 0px 90px;
+}

@@ -1,0 +1,11 @@
+<h1>Article Details</h1>
+
+<ul>
+  <div class="cardos">
+    <li><%= @article.title %></li>
+  </div>
+    <li><%= @article.content %></li>
+</ul>
+
+<%= link_to 'See all the articles', articles_path, class: "btn btn-primary" %>
+<%= link_to 'Edit this article', edit_article_path(@article), class: "btn btn-primary" %>
